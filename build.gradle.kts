@@ -13,7 +13,8 @@
 
 //Настройка шифрования https://itnext.io/how-to-setup-and-test-tls-in-grpc-grpc-web-1b67cc4413e6
 
-//Правильная обработка ошибок https://www.baeldung.com/grpcs-error-handling
+//Правильная обработка ошибок в Java (в Котлине не реализовано пока https://github.com/grpc/grpc-kotlin/issues/402) https://www.baeldung.com/grpcs-error-handling
+// тут пока только кидание исключений, описание в сгенеренном из proto файле сервиса
 
 //Попробовать стриминг https://codingwithmohit.com/grpc/grpc-kotlin-coroutines/ и в https://cloud.google.com/blog/products/application-development/use-grpc-with-kotlin
 

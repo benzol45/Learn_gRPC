@@ -23,7 +23,7 @@ class GrpcClient: Closeable {
                 val response = stubService.sayHello(message)
                 println("Response: ${response.message}")
             } catch (ex: StatusException) {
-                println(ex)
+                println("Status: ${ex.status}\nMessage: ${ex.message}")
             }
         }
     }
