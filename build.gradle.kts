@@ -15,7 +15,7 @@
 
 //Правильная обработка ошибок https://www.baeldung.com/grpcs-error-handling
 
-//Попробовать стриминг
+//Попробовать стриминг https://codingwithmohit.com/grpc/grpc-kotlin-coroutines/ и в https://cloud.google.com/blog/products/application-development/use-grpc-with-kotlin
 
 plugins {
     kotlin("jvm") version "1.9.22"
