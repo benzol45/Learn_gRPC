@@ -15,6 +15,8 @@
 
 //Правильная обработка ошибок https://www.baeldung.com/grpcs-error-handling
 
+//Попробовать стриминг
+
 plugins {
     kotlin("jvm") version "1.9.22"
     id("com.google.protobuf") version "0.9.4"
