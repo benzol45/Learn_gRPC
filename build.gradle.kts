@@ -1,23 +1,3 @@
-//Мануал от гугла специально по котлину + проект
-//Генерация классов - в проекте по ссылке Maven / Gradle Plugin instructions
-//Описание сервиса на сервере через корутины
-//https://cloud.google.com/blog/products/application-development/use-grpc-with-kotlin
-//https://github.com/grpc/grpc-kotlin?tab=readme-ov-file
-
-//Настройка сервера и клиента
-//https://medium.com/swlh/using-grpc-with-kotlin-for-building-microservices-2a79d95a236a
-
-//Как прописать путь до файлов .proto https://stackoverflow.com/questions/66794075/how-to-specify-the-protobuf-path-using-protobuf-gradle-plugin
-
-//Подключение в спринг https://piotrminkowski.com/2023/08/29/introduction-to-grpc-with-spring-boot/
-
-//Настройка шифрования https://itnext.io/how-to-setup-and-test-tls-in-grpc-grpc-web-1b67cc4413e6
-
-//Правильная обработка ошибок в Java (в Котлине не реализовано пока https://github.com/grpc/grpc-kotlin/issues/402) https://www.baeldung.com/grpcs-error-handling
-// тут пока только кидание исключений, описание в сгенеренном из proto файле сервиса
-
-//Попробовать стриминг https://codingwithmohit.com/grpc/grpc-kotlin-coroutines/ и в https://cloud.google.com/blog/products/application-development/use-grpc-with-kotlin
-
 plugins {
     kotlin("jvm") version "1.9.22"
     id("com.google.protobuf") version "0.9.4"
